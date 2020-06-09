@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p $ROOT_PATH
 cd $ROOT_PATH
 if [ ! -f "LICENSE" ]; then
     git clone --progress -b "${APP_VERSION}" --single-branch --depth 1 $REPOSITORY /tmp/src
