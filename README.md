@@ -3,7 +3,7 @@
 ## Example usage
 
 ```bash
-git clone github.com/LyseonTech/moodle-app
+git clone github.com/librecodecoop/moodle-app
 cd moodle-app
 docker-compose up
 ```
